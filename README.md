@@ -12,25 +12,27 @@ Run `docker-compose up -d`.
 To run this project, you will need to add the following environment variables to
 your .env file. Check `.env.example` for an example.
 
-
-| Parameter                  | Type     | Description                                                                                 |
-| :------------------------- | :------- | :------------------------------------------------------------------------------------------ |
-| `PORT`                     | `number` | **Optional**. Port to run server, default to `3000`                                                          |
-| `PG_URL`              | `string` | **Optional**. Database host url. you can choose to use your own database or the default database
+| Parameter | Type     | Description                                                                                      |
+| :-------- | :------- | :----------------------------------------------------------------------------------------------- |
+| `PORT`    | `number` | **Optional**. Port to run server, default to `3000`                                              |
+| `PG_URL`  | `string` | **Optional**. Database host url. you can choose to use your own database or the default database |
 
 ## Run With Docker
 
 Clone the project
 
 **SSH**
+
 ```bash
   git clone git@github.com:LeandroBustos/bank-api.git
 ```
 
 **HTTP**
+
 ```bash
   git clone https://github.com/LeandroBustos/bank-api.git
 ```
+
 Go to the project directory
 
 ```bash
@@ -54,19 +56,24 @@ Start the server
 Clone the project
 
 **SSH**
+
 ```bash
   git clone git@github.com:LeandroBustos/bank-api.git
 ```
 
 **HTTP**
+
 ```bash
   git clone https://github.com/LeandroBustos/bank-api.git
 ```
+
 Go to the project directory
 
 ```bash
   cd my-project
 ```
+
+Set Node Version To 22.14.0
 
 Install dependencies
 
