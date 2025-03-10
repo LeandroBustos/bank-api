@@ -73,7 +73,11 @@ Go to the project directory
   cd my-project
 ```
 
-Set Node Version To 22.14.0
+Node Version
+
+```bash
+    set Node version to 22.14.0
+```
 
 Install dependencies
 
